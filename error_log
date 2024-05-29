@@ -1,0 +1,39 @@
+[24-Jul-2023 05:52:44 UTC] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/taletykes/public_html/UCH/send_email.php on line 23
+[24-Jul-2023 06:21:58 UTC] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /home/taletykes/public_html/UCH/send_email.php on line 23
+[24-Jul-2023 06:41:39 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/taletykes/public_html/UCH/send_email.php on line 13
+[24-Jul-2023 06:42:05 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/taletykes/public_html/UCH/send_email.php on line 13
+[24-Jul-2023 06:43:34 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/taletykes/public_html/UCH/send_email.php on line 13
+[24-Jul-2023 06:57:46 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/taletykes/public_html/UCH/send_email.php on line 85
+[24-Jul-2023 09:46:30 UTC] PHP Parse error:  syntax error, unexpected '$numbers' (T_VARIABLE) in /home/taletykes/public_html/UCH/send_email.php on line 7
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant ‘DDT’ - assumed '‘DDT’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 24
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  implode() expects at most 2 parameters, 3 given in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant ‘apikey’ - assumed '‘apikey’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant ‘numbers’ - assumed '‘numbers’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant “sender” - assumed '“sender”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:31:34 UTC] PHP Warning:  Use of undefined constant “message” - assumed '“message”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant ‘DDT’ - assumed '‘DDT’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  implode() expects at most 2 parameters, 3 given in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant ‘apikey’ - assumed '‘apikey’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant ‘numbers’ - assumed '‘numbers’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant “sender” - assumed '“sender”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:33:25 UTC] PHP Warning:  Use of undefined constant “message” - assumed '“message”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant ‘DDT’ - assumed '‘DDT’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  implode() expects at most 2 parameters, 3 given in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant ‘apikey’ - assumed '‘apikey’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant ‘numbers’ - assumed '‘numbers’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant “sender” - assumed '“sender”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 10:37:08 UTC] PHP Warning:  Use of undefined constant “message” - assumed '“message”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant ‘TXTLCL’ - assumed '‘TXTLCL’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 27
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant ‘ - assumed '‘' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant ’ - assumed '’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  implode() expects at most 2 parameters, 3 given in /home/taletykes/public_html/UCH/send_email.php on line 30
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant ‘apikey’ - assumed '‘apikey’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant ‘numbers’ - assumed '‘numbers’' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant “sender” - assumed '“sender”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33
+[24-Jul-2023 11:43:10 UTC] PHP Warning:  Use of undefined constant “message” - assumed '“message”' (this will throw an Error in a future version of PHP) in /home/taletykes/public_html/UCH/send_email.php on line 33

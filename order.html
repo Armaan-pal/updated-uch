@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <title>United Coffee House</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes"
+      rel="stylesheet"
+    />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Gill%20Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/aboutus.css" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel='stylesheet' href='../cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css'>
+    <link rel='stylesheet' href='../cdn.jsdelivr.net/jquery.slick/1.5.9/slick-theme.css'>
+    <link rel='stylesheet' href='../cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.4/jquery.fancybox.css'>
+
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <link rel="stylesheet" href="css/ionicons.min.css" />
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.timepicker.css" />
+
+    <link rel="stylesheet" href="css/flaticon.css" />
+    <link rel="stylesheet" href="css/icomoon.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-new.css" />
+  </head>
+  <style>
+ 
+.experience-right-sect_mob{
+    display:none;
+}
+  .experience-left-sect_mob{
+      display:none;
+  }
+@media only screen and (max-width: 820px){
+.mobile_iped {
+     padding: 0px !important; 
+}
+.mobile_iped .startyourday1 {
+    /*padding:30px 12px !important; */
+}
+.experience-right-sect{
+    display:none !important;
+}
+.experience-right-sect_mob{
+    display:block;
+    margin-top:2rem;
+}
+.experience-left-sect_mob .my_para1{
+    margin-left:0px !important;
+    margin-right:0px !important;
+}
+.experience-left-sect_mob{
+    display:block;
+    background:#fff;
+}
+.experience-left-sect{
+    display:none !important;
+}
+
+  
+}
+
+    
+  </style>
+  <body>
+    
+    <!-- END nav -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light"
+      id="ftco-navbar" style="display:none"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img class="logosize" src="images/logos/logo.png" alt="" />
+           <img class="logosizeMob" src="images/logos/mobilelogo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> 
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="/aboutus.html" class="nav-link">About us</a></li>
+            <li class="nav-item"><a href="/menu.html" class="nav-link">Menu</a></li>
+            <li class="nav-item active"><a href="/order.html" class="nav-link">Online Order</a></li>
+              <li class="nav-item">
+              <a href="/experience.html" class="nav-link mr-0">Experience</a>
+            </li>
+            <li class="nav-item"><a href="/booking.html" class="nav-link">Book A Table</a></li>
+          
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+
+<!--Floating Button Start-->
+
+
+<!-- <div class="floating_button ">
+  <div class="button-holder " style="z-index: 11;cursor: pointer;">
+    <a class="button dark-outline" onclick="OpenModel()" style="border-radius:10px">
+      BOOK A TABLE<span class="lines"></span>
+    </a>
+  </div>
+  </div> -->
+  
+  <div class="floating_button_mobile">
+    <div class="button-holder " style="z-index: 11; display: flex;justify-content: center;align-items: center; margin-bottom: 10px;cursor: pointer;">
+      <a class="book_table"  href="./booking.html" style="border-radius:10px">
+        BOOK A TABLE<span class="lines"></span>
+      </a>
+    </div>
+    </div>
+
+
+    <!--  -->
+  <div class="floating_card"  id="floating_card">
+    <section class="sinceyear fadeInUp two " style="padding-top: 0px;border:  1px solid #D0B468;width:100%; background: #fff;">
+      <div style="padding-right:20px;color: red;font-weight: bold;cursor: pointer;display: flex;justify-content: right;"> <button onClick="Close()" style="background-color: transparent;outline:none;border:none;color: #4d2315;font-weight: bold;cursor: pointer;">Close</button></div>
+         <div class="" style="text-align:center;">
+            <h2 class="second-title" >RESERVATIONS</h2>
+               <hr>
+           <div class="form" style="margin-bottom: 0px;">
+  
+           <!--<div class="row">
+             <div class="col-lg-6 col-6" style="padding-right: 0px;padding-left: 0px;">
+               <button class="btn4" onclick="openCity(event, 'Paris1')" style="background: #d0b468 !important;color: #fff !important;">Same Day</button>
+             </div>
+             <div class="col-lg-6 col-6" style="padding-right: 0px;padding-left: 0px;">
+               <button class="btn3" onclick="openCity(event, 'Tokyo1')" style="position: relative;left: 1px;background: #fff !important;color:#D0B468 !important;">Next Day</button>
+             </div>
+           </div>-->
+  
+            <div class="row"> <div class="col-lg-12 col-12" style="padding-right: 10px;padding-left: 0px;padding-top: 10px;">
+             <button class="btn3"  style="background: #fff !important;color:#D0B468 !important;">FILL OUT THE FORM</button>
+           </div></div>
+             <div id="Paris1" class="tabcontent" style="display:block;">
+            <form>
+             <div class="row">
+               <div class="col-lg-6 col-6">
+                 <input class="form1" name ="date" placeholder="Date" type="date" id="date-input2" style="color: #fff;">
+               </div>
+               <div class="col-lg-6 col-6">
+                  <input class="form1" name="time" placeholder="Time" type="time" id="time-input" onchange="validateTime(this)">
+               </div>
+               <div class="col-lg-12 col-12">
+                  
+              <select class="form1" name="no_of_person" style="color: #fff;">
+                <option>1-2 PAX</option>
+                <option>3-4 PAX</option>
+                <option>5-6 PAX</option>
+                <option>9-10 PAX</option>
+                <option>10+ PAX</option>
+              </select>
+               </div>
+             </div>
+             <div class="row">
+               <div class="col-lg-12 col-12">
+               <input class="form2" type="text" name="name" placeholder="Name" style="width: 100%;">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-12 col-12">
+               <input class="form2" type="text" name="email" placeholder="Email" style="width: 100%;">
+            </div>
+            <div class="col-lg-12 col-12">
+              <input class="form2" type="text" name="phone" placeholder="Mobile" style="width: 100%;">
+            </div>
+            </div>
+            <div class="row">
+            <div class="col-lg-12 col-12">
+               <textarea class="form3" type="text" name="comment" placeholder="Additional Comments" style="width: 100%;"></textarea> 
+            </div>
+            <div class="col-lg-12 col-12">
+              <input type="checkbox" name="">&nbsp; <span style="color:#fff">I agree with privacy policy</span><br>
+              <br>
+            </div>
+            </div>
+              <button class="btn2" type="button" style="cursor:pointer;border-radius: 10px!important;"> SUBMIT</button>
+  
+            </form>
+            </div>
+  
+   
+              </div>
+          </div>
+  </section>
+  </div>
+   <!-- Floating Button End -->
+
+    <div class="wrapper-main">
+    <div class="cursor"></div>
+
+
+    
+    <section class="order-banner1">
+      <div class="container">
+          <div class="banner-content-area">
+              <p class="animate fadeIn one" style="text-align: center;text-shadow: 4px 5px 8px rgba(104, 95, 84, 1);">Indulge in the unforgettable epicurean experience of United coffee house as we bring it right to your doorstep– every bite ready to transport you to the world of gastronomic bliss!
+
+              </p>
+
+          </div>
+      </div>
+     
+    </section>
+
+            
+      <!-- loader -->
+      <!-- <div style="background-color:#d9d9d9" id="ftco-loader" class="show fullscreen backimage">
+        <div>
+          <div class="container">
+            <img src="./images/banners/bannerLogo.png" alt="preloader" class="fade-in" />
+            <p style="visibility: hidden;">
+              <span class="typed-text"></span>
+            </p>
+          </div>
+        </div>
+      </div> -->
+    <style>
+@media only screen and (max-width:1920px) {
+#gas{position: relative;top: -20px;left: 185px;}
+}     
+@media only screen and (max-width: 600px) {
+#gas{    position: relative;
+    top: -8px;
+    right: -1px;}
+}  
+</style>
+<section class="animate fadeInUp two" id="order">
+  <div class="container" style="margin-top: 80px;">
+    <div class="row">
+      <div class="col-lg-5" style="padding: 40px;position: relative;left: 80px;top:20px;z-index: 9;">
+        <img src="images/coffee.png" width="100%;">
+      </div>
+      <div class="col-lg-7" style="background: #fff;position: relative;right: 85px;">
+        <h2 class="second-title" style="padding-top: 80px;">Order
+                </h2>
+                <hr>
+                <p style="padding-left: 185px;padding-bottom: 20px;padding-right: 108px;font-size: 12px;font-weight: 400;line-height: 14.63px;font-family: 'Montserrat', sans-serif;color: #000000;">Browse through our menu filled with a wide selection of delectable dishes, explore gourmet options from appetisers to desserts and experience authentic flavours and culinary delights in the comfort of your home. Hygienically prepared by our world-class chefs, beautifully packaged to be delivered hot and fresh to your doorstep! Choose a Delivery option through one of the partner apps.</p>
+                 <div class="button-holder" id="gas">
+                    <!-- <a class="button outline" href="#">
+                      EXPLORE<span class="lines"> -->
+    
+                      </span></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+       <section class="mycreat animate fadeInUp two" style="margin-top:30px;">
+        <div class="row iped mobile_iped">
+          <div class="col-lg-6 col-12 startyourday1">
+             <div class="animate fadeInRight three pt-4">
+              <img src="images/coffee.png" width="100%;" height="250px;">
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 startyourday2">
+            <div class="content animate fadeInLeft three">
+                    <h2 class="second-title">Order</h2>
+                <hr>
+                    <p class="my_para1">Browse through our menu filled with a wide selection of delectable dishes, explore gourmet options from appetisers to desserts and experience authentic flavours and culinary delights in the comfort of your home. Hygienically prepared by our world-class chefs, beautifully packaged to be delivered hot and fresh to your doorstep! Choose a Delivery option through one of the partner apps.</p>
+                 <center style="padding-bottom: 26px;"><div class="button-holder" style="position: relative;top: -27px;right: -184px;">
+                    <!-- <a class="button outline" href="#">
+                      EXPLORE<span class="lines"> -->
+    
+                      </span></a></div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="animate fadeInUp two" id="order" style="margin-top:40px;">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7" style="background: #fff;position:relative;left:120px;top: -60px;;">
+             <h2 class="second-title" style="margin-left:-249px;margin-top: 65px;">DELIVERY HANDLES</h2>
+                <hr style="margin-left: 84px;margin-top: 32px;margin-bottom: 43px;">
+                <div class="container">
+                <div class="row">
+                  <div class="col-5 text-center">
+                    <div class="row">
+                      <div class="col-1"></div>
+                  <div class="col-4">
+                <a href=""><div class="">
+                     <img  src="images/self-pick.png" width="70" height="70" >
+                      <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
+                    </div></a>
+
+                   <a href=""><div style="margin-top: 50px;">
+                   <img  src="images/swiggy.png" width="70" height="70" >
+                      <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
+                    </div></a>
+                  </div>
+
+                  <div class="col-4">
+                  
+                    <a href="">  <div >
+                     <img  src="images/uds.png" width="70" height="70" >
+                      <p class="p1" style="color:#485f8b;"><b>Special offer from</b></p>
+                      <p class="p1" style="color:#485f8b; margin-top: -24px !important;"><b>4 P.M To 7 P.M</b></p>
+                    </div></a>
+                    
+                    <a href="">  <div  style="margin-top:35px;">
+                    <img  src="images/zomato.png" width="70" height="70" >
+                      <p class="p1" style="color:#f40331;"><b>zomato</b></p>
+                    </div><a>
+
+                  </div>
+                  <div class="col-1"></div>
+                  </div>
+                  </div>
+                  <div class="col-6"></div>
+                </div>
+                </div>
+          </div>
+          <div class="col-lg-" style="position: relative;
+    right: 188px;
+    z-index: 9;
+    top: -199px;">
+             <img src="images/coffee2.png" min-width="100%;" height="380px;">
+          </div>
+        </div>
+      </div>
+</section>
+       <section class="mycreat animate fadeInUp two" style="margin-top: 15px;padding-bottom: 0px;">
+        <div class="row iped mobile_iped">
+          <div class="col-lg-6 col-12 startyourday1">
+             <div class="animate fadeInRight three">
+              <img src="images/coffee2.png" width="100%;" height="250px;">
+            </div>
+          </div>
+          <div class="col-lg-6 col-12 startyourday2">
+            <div class="content animate fadeInLeft three">
+               <h2 class="second-title">DELIVERY HANDLES</h2>
+                <hr>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="cercil-card text-center">
+                      <img  src="images/self-pick.png" width="70" height="70" >
+                      <p class="p1" style="color:#d0b468;"><b>Self Pick Up</b></p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cercil-card text-center">
+                      <img  src="images/uds.png" width="70" height="70" >
+                      <p class="p1" style="color:#485f8b;"><b>Special offer from</b></p>
+                      <p class="p1" style="color:#485f8b; margin-top: -25px;"><b>4 P.M To 7 P.M</b></p>
+                    </div>
+                  </div>
+                </div>
+                  <div class="row" style="padding-bottom: 20px;">
+                  <div class="col-6">
+                    <div class="cercil-card text-center">
+                      <img  src="images/swiggy.png" width="70" height="70" >
+                      <p class="p1" style="color:#ff7a01;"><b>SWIGGY</b></p>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="cercil-card text-center">
+                      <img  src="images/zomato.png" width="70" height="70" >
+                      <p class="p1" style="color:#f40331"><b>zomato</b></p>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
+      </section>
+
+   <!--<section class="sinceyear sinceyear-new animate fadeInUp three">
+      <div class="bottom">
+          <div class="bottomcontent">
+              <h2 class="second-light-title">CATERING AT YOUR DOORSTEP</h2><br>
+              <p>Bringing culinary excellence to your special events and gatherings</p>
+              <hr class="whiteline">
+              <div class="button-holder text-center">
+                <a class="button dark-outline" href="#">
+                  EXPLORE<span class="lines"></span></a></div>
+          </div>
+      </div>
+    </section>!-->
+
+
+    <section class="experience animate fadeInUp four pt-0" >
+         <div class="experience-right-sect_mob animate fadeInUp five ">
+           
+<img src="./images/experiences_menu/1_1 Experience/dinner.png" alt="" height="500px">
+              
+        </div>
+        <div class="experience-left-sect_mob">
+            <div class="content" style="padding:20px;">
+                <h2 class="second-title">UNITED CATERING SERVICE</h2>
+                <hr>
+                <p class="my_para1">Make your celebrations memorable with an indulgent food experience exclusively curated by the United Coffee House. From Corporate events to intimate gatherings, experience the Exceptional flavours  and impeccable service along with a delectable culinary menu.</p>
+                 <div class="button-holder" style="position: relative;top: -20px;">
+                    <a class="button outline" href="#">
+                      EXPLORE<span class="lines">
+    
+                      </span></a></div>
+                    
+
+              
+                    
+               
+              </div>
+        </div>
+    <div class="container">
+    <div class="experience-wrap">
+          
+
+        <div class="experience-left-sect">
+            <div class="content" style="padding:20px;">
+                <h2 class="second-title">UNITED CATERING SERVICE</h2>
+                <hr>
+                <p>Make your celebrations memorable with an indulgent food experience exclusively curated by the United Coffee House. From Corporate events to intimate gatherings, experience the Exceptional flavours  and impeccable service along with a delectable culinary menu.</p>
+                 <div class="button-holder" style="position: relative;top: -20px;">
+                    <a class="button outline" href="#">
+                      EXPLORE<span class="lines">
+    
+                      </span></a></div>
+                    
+
+              
+                    
+               
+              </div>
+        </div>
+        <div class="experience-right-sect animate fadeInUp five " style="padding: 0px;height: 500px;width: 43%;background: none; margin-bottom: 100px;">
+           
+          <div class="uni_cat_service_image" style="max-width: 100%;overflow: hidden;">
+<img src="./images/experiences_menu/1_1 Experience/dinner.png" alt="" height="500px">
+          </div>
+                <!-- <h2 class="second-light-title ">RESERVATIONS</h2>
+                <div class="right-wrapper">`
+                <div class="watchsec">
+                    <img src ="images/watch.svg" alt="">
+                </div>
+                <div class="textsec">
+                        <p>OPEN: 10 Am - 11:30 PM</p>
+                        <p>TEL:+91 11 23416705, +91 11 23411607
+                        </p>
+                        <p>United Coffee House <br>
+                            E-15 Inner Circle<br>
+                            Connaught Place<br>
+                            New Delhi <br>
+                            110001<br>
+                            India
+                            </p>
+                              <div class="button-holder ">
+                <a class="button dark-outline" href="https://taletykes.com/UCH/booking.html">
+                  BOOK A TABLE<span class="lines"></span></a></div>
+                </div>
+            </div> -->
+        </div>
+
+    </div>
+    
+      </div>
+  </section>
+
+    <!-- <section class="bottomimg-lst-sec animate fadeInUp six" id="EXPERIENCE">
+          <img src="images/New Project (4).png">
+    </section> -->
+
+     <section class="bottomimg-lst-sec animate fadeInUp six" id="about-watch" style="margin-bottom: -20px;">
+      <div class="">
+        <div class="row">
+        <div class="col-12" style="padding-left: 0px;
+    padding-right: 0px;">
+          <img src="images/New Project (4).png" style="width: 100%;">
+        </div>
+        <!-- <div class="col-12" style="background: url(images/imgss.png) no-repeat center;    padding-top: 40px;
+    padding-bottom: 40px;    background-size: cover;">
+            <div class="experience-right-sect animate fadeInUp five">
+           
+                <h2 class="second-light-title ">RESERVATIONS</h2>
+                <div class="right-wrapper">
+                <div class="row">
+                  <div class="col-6">experience-right-sect animate fadeInUp five 
+                    <div class="watchsec">
+                    <img src ="images/watch.svg" alt="" style="width: 100%;margin-top: 70px;">
+                   </div>
+                  </div>
+                  <div class="col-6" >
+                    <div class="textsec" style="color: #fff;">
+                        <p>OPEN: 10 Am - 11:30 PM</p>
+                        <p>TEL:+91 11 23416705, +91 11 23411607
+                        </p>
+                        <p>United Coffee House <br>E-15 Inner Circle<br>Connaught Place<br>New Delhi <br>110001<br>India</p>
+                        <button class=" btn-outline">BOOK A TABLE</button>
+                </div>
+                  </div>
+                </div>
+                
+            </div>
+        </div>
+        </div> -->
+        </div>
+     </section>
+
+
+     <div class="footerrow">
+      <div class="innerfooter">
+        <ul class="menu-footer">
+          <li><a href="https://taletykes.com/UCH/Accolades.html">Accolades</a></li>
+          <li><a href="https://taletykes.com/UCH/order.html">Order </a></li>
+          <li><a href="https://taletykes.com/UCH/booking.html">Booking</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="https://taletykes.com/UCH/aboutus.html">About Us</a></li>
+          <!-- <li><a href="#">Privacy Policy</a></li> -->
+        </ul>
+      </div>
+      <div class="bottomsocial">
+        <ul class="menu-footer">
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <div class="socialrightrow">
+          <ul>
+            <li><a href="#"><img src="images/hommepage/icon%20_instagram.png" alt="img"/></a></li>
+            <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img"/></a></li>
+            <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img"/></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="clear"></div>
+     </div>
+
+ 
+    
+     <div class="main-footer">
+     <div class="container">
+       <div class="row ">
+         <div class="col-4">
+          <ul>
+          <li><a class="ul" href="https://taletykes.com/UCH/Accolades.html">Accolades</a></li>
+          <li><a class="ul" href="https://taletykes.com/UCH/order.html">Online Order </a></li>
+          <li><a class="ul" href="https://taletykes.com/UCH/booking.html">Book A Table</a></li>
+          </ul>
+         </div>
+         <div class="col-5">
+          <ul>
+            <li><a class="ul" href="#">Careers</a></li>
+          <li><a class="ul" href="https://taletykes.com/UCH/aboutus.html">About Us</a></li>
+           <li><a class="ul" href="#">Privacy Policy</a></li>
+        </ul>
+         </div>
+         <div class="col-3">
+           <ul class="icon2">
+            <li><a href="#"><img src="images/hommepage/icon%20_instagram.png" alt="img"/ width="20px"></a></li>&nbsp;&nbsp;
+            <li><a href="#"><img src="images/hommepage/icon%20_facebook.png" alt="img"/ width="20px"></a></li>&nbsp;&nbsp;
+            <li><a href="#"><img src="images/hommepage/icon%20_twitter.png" alt="img"/ width="20px"></a></li>
+          </ul>
+         </div>
+       </div>
+     </div>
+      </div>
+    
+
+    
+    <style>
+
+      @keyframes blink {
+        0% {
+          background-color: #ccc;
+        }
+        49% {
+          background-color: #ccc;
+        }
+        50% {
+          background-color: transparent;
+        }
+        99% {
+          background-color: transparent;
+        }
+        100% {
+          background-color: #ccc;
+        }
+      }
+      
+    </style>
+    
+       <script>
+
+function OpenModel(){
+
+// alert("Opening the second model...");
+const model_card = document.getElementById("floating_card");
+
+if(model_card.style.display='none'){
+  model_card.style.display='block'
+}
+
+}
+
+function Close(){
+
+  // alert("I am Called");
+
+const model_card = document.getElementById("floating_card");
+
+if(model_card.style.display='block'){
+  model_card.style.display='none'
+}
+
+
+}
+
+
+      const typedTextSpan = document.querySelector(".typed-text");
+      const cursorSpan = document.querySelector(".cursor");
+
+      const textArray = ["United Coffee House"];
+      const typingDelay = 200;
+      const erasingDelay = 100;
+      const newTextDelay = 2000; // Delay between current and next text
+      let textArrayIndex = 0;
+      let charIndex = 0;
+      let blurIndex = 20;
+      function type() {
+        if (charIndex < textArray[textArrayIndex].length) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent +=
+            textArray[textArrayIndex].charAt(charIndex);
+          charIndex++;
+          blurIndex = blurIndex - 3;
+          document.getElementById("preeloader").style.filter =
+            "blur(" + blurIndex + "px)";
+          setTimeout(type, typingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          setTimeout(erase, newTextDelay);
+        }
+      }
+
+      function erase() {
+        if (charIndex > 0) {
+          if (!cursorSpan.classList.contains("typing"))
+            cursorSpan.classList.add("typing");
+          typedTextSpan.textContent = textArray[textArrayIndex].substring(
+            0,
+            charIndex - 1
+          );
+          charIndex--;
+          setTimeout(erase, erasingDelay);
+        } else {
+          cursorSpan.classList.remove("typing");
+          textArrayIndex++;
+          if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+          setTimeout(type, typingDelay + 1100);
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // On DOM Load initiate the effect
+        if (textArray.length) setTimeout(type, newTextDelay + 250);
+      });
+    </script>
+   
+   <script>
+      const slides = document.querySelectorAll(".slide");
+      const controls = document.querySelectorAll(".control");
+      let activeSlide = 0;
+      let prevActive = 0;
+
+      changeSlides();
+      let int = setInterval(changeSlides, 4000);
+
+      function changeSlides() {
+        slides[prevActive].classList.remove("active");
+        controls[prevActive].classList.remove("active");
+
+        slides[activeSlide].classList.add("active");
+        controls[activeSlide].classList.add("active");
+
+        prevActive = activeSlide++;
+
+        if (activeSlide >= slides.length) {
+          activeSlide = 0;
+        }
+
+        console.log(prevActive, activeSlide);
+      }
+
+      controls.forEach((control) => {
+        control.addEventListener("click", () => {
+          let idx = [...controls].findIndex((c) => c === control);
+          activeSlide = idx;
+
+          changeSlides();
+
+          clearInterval(int);
+          int = setInterval(changeSlides, 4000);
+        });
+      });
+    </script>
+    <script>
+      const cursor = document.querySelector(".cursor");
+
+      document.addEventListener("mousemove", (e) => {
+        cursor.setAttribute(
+          "style",
+          "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
+        );
+      });
+
+      document.addEventListener("click", (e) => {
+        cursor.classList.add("expand");
+        setTimeout(() => {
+          cursor.classList.remove("expand");
+        }, 500);
+      });
+      
+  
+    </script>
+    
+    <!-- <script>
+     const loader = document.querySelector("#ftco-loader");
+     setTimeout(() => loader.hidden = true, 5000);
+    </script> -->
+    
+    
+     <script>
+
+// Floating Card
+
+
+
+
+
+      const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;")
+});
+
+document.addEventListener('click', e => {
+    cursor.classList.add("expand");
+    setTimeout(() => {
+        cursor.classList.remove("expand");
+    }, 500);
+});
+    </script>
+    
+    
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&amp;sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+<style type="text/css">
+  @media only screen and (max-width: 820px) {
+  .mycreat{display: block;}
+  /*.iped{    padding: 50px;} */
+  #about-watch{display: block;}
+} 
+ @media only screen and (max-width: 820px) {
+  #order{display: none;}
+  #EXPERIENCE{display: none;}
+}
+ @media only screen and (max-width: 600px) {
+ .iped{   margin-top: -30px;}}
+ .oi {
+    position: relative;
+    right: -56px !important;
+    top: 1px;
+    display: inline-block;
+    speak: none;
+    font-family: Icons;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ftco-navbar-light .navbar-toggler {
+    border: none;
+    color: rgba(255, 255, 255, 0.8) !important;
+    cursor: pointer;
+    padding-right: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    right: 68px !important;
+    top: 19px !important;
+}
+
+
+.ftco-navbar-light .navbar-nav > .nav-item.active > a {
+    color: #fff !important;
+}
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover, .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:focus {
+    color: #fff !important;
+}
+.ftco-navbar-light .nav-item > .nav-link {
+    color: #4d2315 !important;
+    /* background: #D0B468; */
+    border-bottom: 6px solid #4d2315;
+    position: relative !important;
+    top: -17px;
+}
+.ftco-navbar-light.scrolled .nav-item > .nav-link {
+    color: #4d2315 !important;
+}
+
+
+@media only screen and (max-width: 1920px) {
+  .ftco-navbar-light.scrolled .nav-item > .nav-link {
+    color:#4d2315 !important;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .ftco-navbar-light.scrolled .nav-item > .nav-link {
+    color: #fff !important;
+}
+.ftco-navbar-light.scrolled .navbar-nav {
+    background: #4d2315 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+}
+</style>
+
+
+
+
+</html>
