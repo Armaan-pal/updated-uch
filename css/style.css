@@ -531,7 +531,10 @@ mark,
 }
 @media(max-width:767px){
    .logosize{
-        display:none
+        /* display:none */
+        display: block;
+        top:16px;
+        height: 39px;
    }
    .logosizeMob{
     display:block;
@@ -3751,6 +3754,26 @@ input[type=button].btn-block {
 }
 }
  @media only screen and (max-width: 600px) {
+
+  /* main banner */
+
+  .indx .slick-slide img {
+    height: 430px;
+    /* max-height: 90vh; */
+  }
+
+  .imgthreehght{
+    height:276px
+  }
+  .imgthreehght img{
+    height:inherit !important;
+  }
+
+  .your-class .slick-dots{
+    bottom: 25% !important;
+  }
+  
+
 .navbar-nav {
   display: flex;
   flex-direction: column;

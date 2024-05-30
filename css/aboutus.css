@@ -1661,6 +1661,7 @@ px
 .supper-sec .right img {
   width: 100%;
   display: block;
+  height: inherit;
 }
 
 .supper-sec .left {
